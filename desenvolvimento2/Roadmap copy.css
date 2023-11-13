@@ -1,0 +1,136 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.titulo-header {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    /* Outros estilos desejados */
+}
+.descricao-header {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    /* Outros estilos desejados */
+}
+
+/* Estilo do header */
+/* Reset de margens e preenchimentos padrão */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+/* Estilo do header */
+header {
+    background-color: #3C1A7D;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 1px 1px 5px #3C1A7D;
+    margin-bottom: 20px;
+    width: 99%;
+    height: 8%;
+}
+
+/* Estilo para o título no header */
+header h1 {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Estilo para os links no header */
+header nav {
+    text-align: right;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+img {
+    float: left;
+    width: 70px;
+    height: auto;
+    border-radius: 15px 10px;
+    box-shadow: 1px 1px 5px #4a1564;
+    margin-right: 0px;
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: translateY(-5px);
+}
+
+/* Estilo para os links no header */
+header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+/* Estilo para os links no hover */
+header a:hover {
+    color: rgb(11, 165, 204);
+}
+
+/* Estilo da tabela jornalística com bordas arredondadas */
+.tabela-redonda {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+
+/* Estilo do cabeçalho com bordas arredondadas */
+.cabecalho-redondo {
+    background-color: #3C1A7D;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 8px;
+    text-align: center;
+ 
+}
+
+/* Estilo das células com bordas arredondadas */
+.tabela-redonda td {
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 8px;
+}
+td{
+    transition: transform 0.3s;
+}
+td:hover {
+    transform: translateY(-2px);
+    color: #88b983;
+}
+
+/* Estilo do título com design */
+h2 {
+    font-size: 24px;
+    color: white;
+    background-color: rgb(100, 160, 130);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 35px;
+}
+@media screen and (max-width: 600px) {
+    header {
+        height: 65px;
+    }
+header nav{
+    padding: 3px;
+    text-align: center;
+}
+}
