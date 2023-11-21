@@ -1,0 +1,274 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.titulo-header {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    /* Outros estilos desejados */
+}
+.descricao-header {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    /* Outros estilos desejados */
+}
+
+/* Reset de margens e preenchimentos padrão */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do header */
+header {
+    background-color: #3C1A7D;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 1px 1px 5px #3C1A7D;
+    margin-bottom: 20px;
+    width: 99%;
+    height: 8%;
+}
+
+/* Estilo para o título no header */
+header h1 {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Estilo para os links no header */
+header nav {
+    text-align: right;
+    padding-bottom: 8px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+img {
+    float: left;
+    width: 60px;
+    height: auto;
+    border-radius: 15px 10px;
+    box-shadow: 1px 1px 5px #4a1564;
+    margin-right: 0px;
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: translateY(-8px);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh; /* Isso mantém o container centralizado na vertical */
+}
+
+.sub-titulo {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    background-color: orange;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px;
+    padding-left: 15px;
+    margin: 0 auto; /* Isso centraliza horizontalmente */
+}
+.desing-do-roadmap{
+    font-size: 24px;
+    color:white;
+    background-color: orange;
+    padding: 0; /* Removendo o padding para o preenchimento interno */
+    margin: 0; /* Removendo a margem para eliminar qualquer espaço externo */
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+.desing-das-letra{
+    background-color: orange;
+}
+
+.titulo-header {
+    margin: 10px 0;
+}
+
+.descricao-header {
+    color:white;
+}
+
+/* Estilos do roadmap */
+.roadmap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-bottom: 160px;
+}
+
+.marco {
+    flex: 0 0 200px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+}
+.marco:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.seta {
+    width: 18px;
+    height: 18px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: rotate(-135deg);
+    margin: 0 30px;
+    transition: border-color 0.3s ease; /* Transição para suavizar a mudança de cor */
+}
+
+.seta:hover {
+    border-color: rgb(255, 0, 0); /* Muda a cor da borda para vermelho ao passar o mouse */
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        height: 65px;
+    }
+}
+a {
+    transition: color 0.3s ease; /* Define a transição de cor com duração de 0.3s */
+}
+
+a:hover {
+    color: rgb(30, 212, 45); /* Altera a cor ao passar o mouse */
+}
+
+@media screen and (max-width: 600px) {
+    .sub-titulo {
+        font-size: 20px; /* Reduz o tamanho do texto para telas menores */
+        padding: 8px; /* Ajusta o preenchimento interno */
+        border-radius: 10px; /* Reduz o raio da borda para telas menores */
+    }
+}
+@media screen and (max-width: 600px) {
+    header {
+        height: auto; /* Altura automática para se adaptar ao conteúdo */
+    }
+
+    header h1 {
+        font-size: 20px; /* Reduz o tamanho do título para telas menores */
+    }
+
+    header nav {
+        margin-top: 5px;
+    }
+
+    header nav a {
+        margin: 0 5px;
+    }
+}
+/* desfoque da pagina*/
+.informacoes {
+    display: none;
+    position: absolute;
+    top: 107px;
+    right: -300px;
+    width: 600px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    z-index: 999;
+    transition: right 0.3s ease-in-out;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow-y: scroll;
+    
+}
+.informacoes.aberto {
+    right: 1px;
+    display: block;
+
+}
+.informacoes {
+    filter: none !important;
+
+}
+@media only screen and (max-width: 4320px) {
+    .informacoes {
+        width: 90%;
+        max-width: 625px;
+        right: 5px;
+        padding: 10px;
+        top: 105px;
+        border-radius: 10px;
+        height: 400px;
+        position: absolute;
+        overflow-y: scroll;
+      }
+      
+     
+    }
+
+    .fechar {
+        position: absolute;
+        top: 5px;
+        right: 20px;
+        cursor: pointer;
+        font-size: 24px; /* Aumentando o tamanho do ícone */
+        color: #555;
+
+      }
+      
+      .fechar:hover {
+        color: #f00; /* Cor vermelha ao passar o mouse */
+      }
+      /* segunada senção*/
+      .quadrados {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .quadrado {
+        width: 900px;
+        height: 600px;
+        margin: 60px;
+            border-radius: 15px;
+    }
+    
+    .azul {
+        background-color: white;
+    }
+    
+    .vermelho {
+        background-color: white;
+    }
+    #secao2{
+        background-color: rgb(228, 150, 7);
+        border-radius: 20px;
+        background-image: url('https://prozeducacao.com.br/wp-content/themes/Brave%20Magnetic%20Proz/assets/img/landing/bg_laranja.jpg');
+        background-size: cover; /* Para cobrir todo o fundo */
+        background-repeat: no-repeat; /* Evita a repetição da imagem */
+        /* Adicione outras propriedades de estilo conforme necessário */
+    }
+    .titulo-2{
+        padding-top: 60px;
+        color: white;
+        font-size: 30px;
+    }
