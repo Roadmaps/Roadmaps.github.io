@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Roadmap atualizacao7.css">
+
+    <title>Seu Título</title>
+   
+</head>
+<body  >
+    <header >
+        <div class="cabecalho " > 
+          <a  class="logo"href="https://prozeducacao.com.br" target="_blank"><img class="logo" src="data:image/png;base64,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" alt=""></a>  
+            <h1 class="titulo-header">Trilhas Proz</h1>
+            <p class="descricao-header"> Caminho da tecnologia </p>
+            <nav>
+                <a href="#secao1">Seção 1</a>
+                <a href="#secao2">Seção 2</a>
+                <a href="#secao3">Seção 3</a>
+            </nav>
+    </header>
+  
+    <main class="area-central" >
+      <div class="container"  >
+        <div class="sub-titulo" >Caminho do densevolvimento para 2024</div>
+    </div>
+    <section id="secao1">
+      
+      <div class="roadmap">
+          <div class="marco" >
+              <h2  style="font-size: 24px; color: white; background-color: orange; padding: 0; margin: 0; border-radius: 10px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); font-weight: bold;">Janeiro</h2>
+              <p>História da computação <br>
+                 e <br>
+                  Hardware</p>
+          </div >
+          <div class="seta"></div>
+          <div class="marco " >
+              <h2  style="font-size: 24px; color: white; background-color: orange; padding: 0; margin: 0; border-radius: 10px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); font-weight: bold;"">Fevereiro</h2>
+              <p>Software<br>
+                e<br>
+                Sistemas Operacionais 
+            </p>
+          </div>
+          <div class="seta"></div>
+          <div class="marco ">
+              <h2  style="font-size: 24px; color: white; background-color: orange; padding: 0; margin: 0; border-radius: 10px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); font-weight: bold;">Março</h2>
+              <p>Expressões <br>
+              e <br>
+              Conceitos de Programação
+            </p>
+          </div>
+          <div class="seta"></div>
+          <div class="marco abr">
+              <h2 style="font-size: 24px; color: white; background-color: orange; padding: 0; margin: 0; border-radius: 10px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); font-weight: bold;">Abril</h2>
+              <p>Logica <br>
+                de <br>
+                 Programação </p>
+          </div>
+          <div class="seta"></div>
+          <div class="marco mai">
+              <h2 style="font-size: 24px; color: white; background-color: orange; padding: 0; margin: 0; border-radius: 10px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); font-weight: bold;">Maio</h2>
+              <p>linguagem <br>
+                de <br>
+                 Programação</p>
+          </div>
+          <div class="seta"></div>
+          <div class="marco jun">
+              <h2 style="font-size: 24px; color: white; background-color: orange; padding: 0; margin: 0; border-radius: 10px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); font-weight: bold;">Junho</h2>
+              <p>Banco de Dados 
+                
+              </p>
+          </div>
+          <div class="seta"></div>
+          <div class="marco jul">
+              <h2 style="font-size: 24px; color: white; background-color: orange; padding: 0; margin: 0; border-radius: 10px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); font-weight: bold;">Julho</h2>
+              <p>Front-End </p>
+          </div>
+          <div class="seta"></div>
+          <div class="marco ago">
+              <h2 style="font-size: 24px; color: white; background-color: orange; padding: 0; margin: 0; border-radius: 10px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); font-weight: bold;">Agosto</h2>
+              <p>Back-End</p>
+          </div>
+          <div class="seta"></div>
+          <div class="marco set">
+              <h2 style="font-size: 24px; color: white; background-color: orange; padding: 0; margin: 0; border-radius: 10px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); font-weight: bold;">Setembro</h2>
+              <p>Avanços em inteligência artificial</p>
+          </div>
+          <div class="seta"></div>
+          <div class="marco out">
+              <h2 style="font-size: 24px; color: white; background-color: orange; padding: 0; margin: 0; border-radius: 10px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); font-weight: bold;">Outubro</h2>
+              <p>Redes</p>
+          </div>
+          <div class="seta"></div>
+          <div class="marco nov">
+              <h2 style="font-size: 24px; color: white; background-color: orange; padding: 0; margin: 0; border-radius: 10px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); font-weight: bold;">Novembro</h2>
+              <p>Áreas de Atuação </p>
+          </div>
+          <div class="seta"></div>
+          <div class="marco dez">
+              <h2 style="font-size: 24px; color: white; background-color: orange; padding: 0; margin: 0; border-radius: 10px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); font-weight: bold;">Dezembro</h2>
+              <p>Ensinos Superiores</p>
+          </div>
+      </div>
+          
+        </section>
+
+        <section id="secao2">
+            <!-- Conteúdo da Seção 2 -->
+        <h1 style=" text-align: center;" class="titulo-2"> Desenvolvimento Do RoadMaps</h1>
+        <div class="quadrados">
+          <div class="quadrado azul"> <img class="diagrama"  src="WhatsApp Image 2023-11-22 at 09.24.04.jpeg" alt=""></div>
+          <!--<div class="quadrado vermelho"><img class="diagrama"  src="WhatsApp Image 2023-11-22 at 09.24.04.jpeg" alt=""></div> -->
+          
+        </div>
+        
+        
+        </section>
+
+
+        <section id="secao3">
+          <!-- Conteúdo da Seção 3 -->
+          <h1>Desenvolvedores </h1>
+          <div class="imagens-container">
+              <div class="imagem">
+                  <img class="portaretrato" src="https://media-gru1-2.cdn.whatsapp.net/v/t61.24694-24/365470352_689475493225608_7445865883173366864_n.jpg?ccb=11-4&oh=01_AdT45i1tcmdrTkKpMjD5ZpE2tK7Dum5PWlI6EJHQiLS4Iw&oe=656EEB63&_nc_sid=e6ed6c&_nc_cat=109" alt="Imagem 1" >
+                  <h4>Ezequiel  Abraão  </h4>
+                  <p> Desenvolvimento do site </p>
+                  <div class="redes-sociais">
+                   <a href="https://www.linkedin.com/in/ezequiel-abraão-32a076240/" target="_blank"> <img  src="data:image/png;base64,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" alt="Rede Social 1"></a>
+            <a href="https://www.instagram.com/ezequiel_a.cl/" target="_blank"><img src="https://t.ctcdn.com.br/Ym9t_1dCfwc9uIknM54YCC4phg8=/i489927.jpeg" alt="Rede Social 2"></a>  
+                    <!-- Adicione mais imagens de redes sociais conforme necessário -->
+                </div>
+              </div>
+              <div class="imagem">
+                <img class="portaretrato" src="https://media-gru1-2.cdn.whatsapp.net/v/t61.24694-24/342090421_260221556432587_8906920183197931628_n.jpg?ccb=11-4&oh=01_AdQJF8uGjqa2eFfwAKLQczsT1JUHIOdOmey99w5jCDdtRQ&oe=656C5643&_nc_sid=e6ed6c&_nc_cat=107" alt="Imagem 1" >
+                <h4>Vinicius Marques</h4>
+                <p>Desenvolveu Perguntas do Quiz</p>
+                <div class="redes-sociais">
+               <a href="" target="_blank"> <img  src="data:image/png;base64,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" alt="Rede Social 1"></a>
+            <a href="" target="_blank"><img src="https://t.ctcdn.com.br/Ym9t_1dCfwc9uIknM54YCC4phg8=/i489927.jpeg" alt="Rede Social 2"></a>  
+          <a href="" target="_blank"> <img src="data:image/png;base64,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" alt="Rede Social 2"></a> 
+                  <!-- Adicione mais imagens de redes sociais conforme necessário -->
+              </div>
+            </div>
+            <div class="imagem">
+              <img class="portaretrato" src="https://media.licdn.com/dms/image/D4D35AQEgrJ3UNbrhHw/profile-framedphoto-shrink_200_200/0/1685209230326?e=1701615600&v=beta&t=iOKybWs3taYTr62KLLsP3mtPoPaLlPWT_zfImEHKxBY" alt="Imagem 1" >
+              <h4>Carlos Eduardo</h4>
+              <p> Artigos da página </p>
+              <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/carlos-eduardo-da-silva-miranda-243059251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"> <img  src="data:image/png;base64,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" alt="Rede Social 1"></a>
+            <a href="https://www.instagram.com/kaddu_31/" target="_blank"><img src="https://t.ctcdn.com.br/Ym9t_1dCfwc9uIknM54YCC4phg8=/i489927.jpeg" alt="Rede Social 2"></a>  
+      
+                 <!-- Adicione mais imagens de redes sociais conforme necessário -->
+            </div>
+          </div>
+          <div class="imagem">
+             <img class="portaretrato" src="https://media.licdn.com/dms/image/D4D35AQHFth5QfG56Hw/profile-framedphoto-shrink_800_800/0/1696853283259?e=1701615600&v=beta&t=1YeIkn76CMXSO-x5O1abNeze1YOrbDLZ4BSzqyS3tZE" alt="Imagem 1" >
+            <h4>Gustavo</h4>
+            <p> Desenvolveu Os Diagramas </p>
+            <div class="redes-sociais">
+              
+       <a href="http://linkedin.com/in/gustavo-alves-533830270" target="_blank"> <img  src="data:image/png;base64,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" alt="Rede Social 1"></a>
+    
+              <!-- Adicione mais imagens de redes sociais conforme necessário -->
+              
+          </div>
+        </div>
+        <div class="imagem">
+          <img class="portaretrato" src="WhatsApp Image 2023-11-26 at 11.48.21.jpeg" alt="Imagem 1" >
+          <h4>Paola Santiago</h4>
+          <p> Desenvolveu Os Diagramas </p>
+          <div class="redes-sociais">
+      
+            <a href="https://instagram.com/paola_santiago_3?utm_source=qr&igshid=ZTM4ZDRiNzUwMw==" target="_blank"><img src="https://t.ctcdn.com.br/Ym9t_1dCfwc9uIknM54YCC4phg8=/i489927.jpeg" alt="Rede Social 2"></a>  
+         
+            <!-- Adicione mais imagens de redes sociais conforme necessário -->
+        </div>
+      </div>
+
+          </div>
+      </section>
+    </main>
+
+    <aside class="informacoes jan-info" class="roadmap">
+        <span class="fechar">&times;</span>
+      <h2>Historia da computação </h2>
+      <p>A história da computação é uma jornada complexa, iniciada com a invenção do ábaco no século V a.C., considerado o 'primeiro computador'. Avançando para o século XVII, o matemático escocês John Napier desenvolveu a 'régua de cálculo', o primeiro dispositivo analógico capaz de calcular logaritmos. <br>
+        <br>
+
+Na década de 1640, o matemático francês Pascal criou a primeira máquina de calcular automática. Em seguida, o matemático francês Joseph-Marie Jacquard introduziu um tear mecânico programável usando cartões perfurados para controlar a confecção de tecidos. <br>
+<br>
+
+No século XIX, o matemático inglês Charles Babbage concebeu uma máquina analítica, comparável aos computadores modernos com memória e programas. A necessidade de computação cresceu exponencialmente; em 1880, o aumento populacional nos EUA demandou mais de sete anos para tabular os resultados do Censo. <br>
+<br>
+
+Os primeiros computadores eletrônicos surgiram simultaneamente na Alemanha, Inglaterra e nos Estados Unidos, marcando a era do Mark 1. O computador, conforme o conhecemos hoje, passou por inúmeras transformações, evoluindo junto com avanços nas áreas de matemática, engenharia e eletrônica.</p> <br>
+        <h3> Para mais histórias, acesse aqui 👇</h3>
+      <ul >
+        <li><a href="https://www.todamateria.com.br/historia-e-evolucao-dos-computadores/" target="_blank"> História e Evolução dos Computadores</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/História_da_computação" target="_blank">História da computação </a></li>
+        <li> <a href="https://super.abril.com.br/mundo-estranho/como-surgiu-o-computador/" target="_blank">Como surgiu o computador ? </a></li>
+        <li><a href="https://escolaeducacao.com.br/historia-dos-computadores-linha-do-tempo-origem-e-evolucao/" target="_blank">História dos Computadores – Linha do Tempo, Origem e Evolução</a></li>
+
+      </ul>
+      <h2> Hardware</h2>
+      <p> O hardware é uma palavra de origem inglesa que, no âmbito da informática, é utilizada para designar a parte física de um computador. 
+        São todos os componentes palpáveis de um dispositivo eletrônico, como placas, memória, processador, teclado, monitor, etc. <br>
+        <br>
+        As principais peças de um hardware são:
+        Processador (CPU): É o cérebro do computador, onde se realizam as instruções de um programa de computador. 
+        Placa-mãe: É o componente principal do computador, pois é aquela onde se conecta e interliga todos os componentes do computador. 
+        Fonte de energia: Fornece energia para o funcionamento dos componentes do computador.
+        HD (ou SSD): É o hardware responsável por armazenar dados e informações de um sistema operacional. <br>
+        <br>
+        Memória RAM: Permite o processador armazenar os ficheiros (arquivos) e programas para serem processados.
+        Placa de vídeo (GPU): Responsável pela renderização de imagens.</p>
+        
+        <h4>Atenção:Para saber da boa qualidade de uma peça de hardware, você pode verificar a compatibilidade das peças pelo site do fabricante.
+        </h4>
+        <p> Eles disponibilizam uma lista que especifica todos os componentes que podem trabalhar em conjunto. Além disso, existem softwares
+            de diagnóstico de hardware que podem ajudar a identificar problemas ou verificar o desempenho de um componente. <br>
+<br>
+            O hardware serve para determinar do que um dispositivo é capaz e como você pode usá-lo. Embora dependa de um software para
+            funcionar (e vice-versa), o hardware é um elemento à parte e igualmente importante. <br></p>
+
+            <h4> Trilha do Conhecimento: Desafio de Desenvolvimento 😇</h4> 
+           <a href="https://view.genial.ly/655deaa19b54f300116655cc/interactive-content-historia-da-computacao-e-hadware"> Historia e hardware</a>
+
+          <h4> Para mais detalhes, você pode consultar os seguintes links👇</h4> 
+            <ul>
+                <li><a href="https://www.significados.com.br/hardware/" target="_blank"> Hardware: o que é, conceito, definição, tipos e exemplos</a> </li>
+                <li> <a href="https://tecnoblog.net/responde/o-que-e-hardware/">O que é hardware? – Tecnoblog</a></li>
+                <li><a href="arbety.com/?invite=p&code=atomibetpro&modal=register" target="_blank">Os 6 principais elementos de hardware - Maestrovirtuale.com</a></li>
+                <li><a href="https://www.i-tecnico.pt/hardware-os-principais-componentes-um-computador/" target="_blank"> Hardware: veja quais são os principais componentes de um computador</a></li>
+                <li><a href="https://www.tecmundo.com.br/produto/230935-hardware-entenda-tudo-o-que-compoe-o-pc.htm" target="_blank">O que é hardware? Entenda tudo o que compõe o seu PC</a></li>
+                <li><a href="https://www.gamerinfo.com.br/como-saber-se-os-componentes-do-pc-sao-compativeis/" target="_blank">Como saber se as peças do PC são compatíveis? Entenda! - Gamer Info</a></li>
+                <li><a href="https://www.tecmundo.com.br/memoria/1036-diagnostico-de-hardware.htm" target="_blank">Para Diagnóstico de Hardware - TecMundo</a></li>
+                <li><a href="https://tecnologia.culturamix.com/hardware/para-que-serve-o-hardware" target="_blank">Para que Serve o Hardware? - Computador e Componentes - Cultura Mix</a></li>
+            </ul>
+        
+  </aside>
+  
+  <aside class="informacoes fev-info">
+    <span class="fechar">&times;</span>
+      <h2> Software</h2>
+      <p>O software é uma coleção de dados ou instruções que informam a um mecanismo, como um computador, tablet ou celular, como trabalhar. Ele pode ser definido como os programas, dados e instruções que comandam o funcionamento de um dispositivo eletrônico.
+        Os principais tipos de software são:
+        Software de Sistema: É responsável por gerenciar o comportamento do hardware de um dispositivo. Exemplos incluem sistemas
+        operacionais como Windows, macOS, Android ou iOS. <br>
+        <br>
+        Software de Programação: Consiste em ferramentas que permitem ao desenvolvedor criar e editar outros softwares, utilizando
+        linguagens de programação.
+        <br>
+        Software Aplicativo: São os programas que permitem aos usuários realizar uma ou mais tarefas específicas. Exemplos incluem
+        redes sociais, navegadores, jogos e muitos outros. <br>
+        <br>
+        <h4> Para mais detalhes, você pode consultar os seguintes links👇</h4> 
+            <ul>
+                <li><a href="https://canaltech.com.br/software/o-que-e-software/" target="_blank"> O que é software? Entenda o significado - Canaltech</a> </li>
+                <li> <a href="https://www.significados.com.br/software/" target="_blank">Software: o que é, conceito, definição, tipos e exemplos - Significados</a></li>
+                <li><a href="https://rockcontent.com/br/blog/tipos-de-software/" target="_blank">Tipos de software: quais são, como funcionam e exemplos - Rock Content</a></li>
+                <li><a href="https://www.bing.com/search?q=como+saber+da+boa+qualidade+de+um+software&toWww=1&redig=BE1C82E64ECF4D21A15C7B47EFAF39E7" target="_blank">Como avaliar a qualidade de software? </a></li>
+                <li><a href="https://www.monitoratec.com.br/blog/qualidade-de-software/" target="_blank">Qualidade de software: o que é e como avaliar o seu resultado?</a></li>
+                <li><a href="https://definicao.net/software/" target="_blank">O que é software? Para que serve? Quais os tipos? - Definição.net</a></li>
+            </ul>
+            <h2> Sistema Operacional</h2>
+            <p>
+Um sistema operacional é um software, ou um conjunto de softwares, que tem como função administrar e gerenciar os recursos de
+um sistema, desde componentes de hardware e sistemas de arquivos a programas de terceiros. Ele estabelece a interface entre o computador e o usuário. <br>
+<br>
+Os principais sistemas operacionais são:
+Windows: É o sistema operacional mais usado no mundo todo, atinge cerca de 400 milhões de usuários e foi criado pela
+Microsoft.  <br>
+<br>
+Mac OS X: Esse sistema operacional foi criado e é comercializado pela Apple. Sua primeira versão foi lançada em 2001.
+Linux: Sistema operacional desenvolvido por Linus Torvaldo, finlandês que se inspirou no sistema Minix.
+<br>
+<h4> Trilha do Conhecimento: Desafio de Desenvolvimento 😇</h4> 
+<a href="https://view.genial.ly/655df6bcaa9b890010084c8c/interactive-content-quiz-essencial"> Software e Sistema Operacional </a>
+
+<h4> Para mais detalhes,  os seguintes links👇</h4> 
+ </p>
+     <ul>      
+         <li><a href="https://tecnoblog.net/responde/o-que-e-um-sistema-operacional/" target="_blank">que é um sistema operacional? – Tecnoblog</a></li>
+         <li><a href="https://olhardigital.com.br/2022/09/29/tira-duvidas/sistema-operacional-o-que-e-para-que-serve-e-exemplos/" target="_blank">Sistema operacional: o que é, para que serve e exemplos - Olhar Digital</a></li>
+         <li><a href="https://tecnologia.culturamix.com/sistemas-operacionais/principais-sistemas-operacionais" target="_blank">Principais Sistemas Operacionais - Windows e Microsoft | Tecnologia - Cultura Mix</a></li>
+         <li><a href="https://www.buscape.com.br/notebook/conteudo/o-que-e-sistema-operacional" target="_blank">O que é sistema operacional? Qual a sua função? Entenda tudo - Buscapé</a></li>
+    
+
+     </ul>
+  </aside>
+  
+  <aside class="informacoes mar-info">
+    <span class="fechar">&times;</span>
+      <h2>Expressões</h2>
+      <p>
+        Front-end:
+
+        Biblioteca: Porções de código programadas que podem ser utilizadas em outros códigos para facilitar o desenvolvimento. Exemplos incluem bibliotecas como React, Vue.js e Angular. <br>
+<br>
+        HTML (Linguagem de Marcação de Hipertexto): Linguagem de marcação usada como estrutura no front-end de um site. Define a estrutura e o conteúdo da página. <br>
+<br>
+        CSS (Folhas de Estilo em Cascata): Linguagem de estilo que define a aparência do documento HTML em um site. Responsável pela apresentação visual, como cores, layout e design. <br>
+<br>
+        JavaScript: Linguagem de programação utilizada no front-end para adicionar interatividade e funcionalidades dinâmicas às páginas web. <br>
+<br>
+        Framework Front-end: Conjunto de ferramentas, bibliotecas e melhores práticas pré-definidas para agilizar o desenvolvimento front-end. Exemplos incluem frameworks como Bootstrap, Foundation e Materialize." <br>
+<br>
+        Back-end: 
+        Servidor: É a máquina onde roda o back-end de um site ou um acessível a outras aplicações. <br>
+        <br>
+        Middleware: Localizado entre o sistema operacional e os aplicativos, é um software que permite a interação entre sistemas isolados e funções. <br>
+    <br>
+        Desenvolvedor Back-end: É o profissional que está envolvido diretamente com as regras de negócios, segurança, banco de
+        dados e integração de webservices.
+<br>
+
+</p>
+<h4>Para mais detalhes, você pode consultar os seguintes links 😃</h4>
+<ul>
+  <li><a href="https://br.godaddy.com/blog/dicionario-do-programador/" target="_blank">Dicionário do programador: 50 termos da internet ligados ao seu site</a></li>
+  <li><a href="https://kenzie.com.br/blog/linguagens-de-programacao-backend/" target="_blank">AS 11 LINGUAGENS BACK-END MAIS USADAS PARA PROGRAMAR</a></li>
+  <li><a href="https://blog.betrybe.com/tecnologia/linguagem-back-end/" target="_blank">Linguagem back-end: o que é e quais as 7 mais usadas?</a></li>
+  <li><a href="https://blog.back4app.com/pt/as-10-principais-linguagens-de-programacao-front-end/" target="_blank">As 10 principais linguagens de programação front-end</a></li>
+</ul>
+
+<h2> Conceitos de Programação  </h2>
+
+<p>
+A programação é uma atividade que envolve o planejamento, elaboração, escrita e desenvolvimento de programas para computadores, tablets,
+celulares ou outros equipamentos eletrônicos. Ela é realizada através do uso de algoritmos, que são sequências finitas, ordenadas e não ambíguas de instruções que devem ser seguidas para resolver um problema. <br>
+<br>
+Os conceitos fundamentais da programação incluem:
+Algoritmo: Uma sequência de passos que possui o objetivo de realizar uma tarefa específica.
+Variáveis e constantes: Utilizadas para armazenar os valores referentes a um dado.
+Tipos de dados: Na programação, existem diferentes tipos de dados, como int (valor numérico do tipo inteiro), float (valor numérico do
+tipo decimal), double (valor numérico do tipo decimal de precisão dupla), e char (um caractere do tipo texto).
+</p>
+<h4> Trilha do Conhecimento: Desafio de Desenvolvimento 😇</h4> 
+<a href="https://view.genial.ly/656010fc99198400117024df/interactive-content-quiz-essencial"> Conceitos de Programação</a>
+
+<h4>Para mais informações, você pode consultar os seguintes sites 🖥️</h4>
+<ul>
+<li><a href="https://kenzie.com.br/blog/introducao-a-programacao/" target="_blank">INTRODUÇÃO DA PROGRAMAÇÃO: QUAIS SÃO OS CONCEITOS FUNDAMENTAIS?</a></li>
+<li><a href="https://conceitos.com/programacao/" target="_blank">Conceito de Programação</a></li>
+<li><a href="https://www.yazigi.com.br/noticias/geral/quais-sao-os-principais-conceitos-da-programacao" target="_blank">QUAIS SÃO OS PRINCIPAIS CONCEITOS DA PROGRAMAÇÃO?</a></li>
+</ul>
+    
+  </aside>
+  
+  <aside class="informacoes abr-info">
+    <span class="fechar">&times;</span>
+      <h2>Logica de Programação</h2>
+      <p>A lógica de programação é a técnica utilizada para desenvolver instruções em uma sequência para atingir determinado objetivo. <br>
+        <br>
+        Ela é a organização e planejamento de instruções, em um algoritmo, com o objetivo de tornar viável a implementação de um programa ou software. <br>
+        <br>
+        Na lógica de programação, aplicamos todos os conceitos de algoritmos, a definição do passo a passo e transferimos toda a lógica do algoritmo
+        desenvolvido para uma linguagem de programação. Em linhas gerais, lógica de programação é todo conjunto de regras e conceitos que precisamos aplicar para criar códigos.
+     </p>
+     <h4> Trilha do Conhecimento: Desafio de Desenvolvimento 😇</h4> 
+     <a href="https://view.genial.ly/65601959991984001175cb87/interactive-content-fundamentos">Fundamentos da programação</a>
+     <h4> Para mais informações, os seguintes links👇:</h4>
+     <ul>
+      <li><a href="https://www.alura.com.br/artigos/algoritmos-e-logica-de-programacao" target="_blank">Algoritmos e Lógica de programação: O que são e qual a importância?</a></li>
+      <li><a href="https://kenzie.com.br/blog/logica-de-programacao/" target="_blank">LÓGICA DE PROGRAMAÇÃO: O QUE É E POR QUE É IMPORTANTE?</a></li>
+      <li><a href="https://www.hostgator.com.br/blog/logica-de-programacao/" target="_blank">Lógica de programação: o que é e como aprender?</a></li>
+      <li><a href="https://www.locaweb.com.br/blog/temas/codigo-aberto/logica-de-programacao-o-que-e/" target="_blank">Lógica de programação: o que é, sua importância e exemplos</a></li>
+      <li><a href="https://www.youtube.com/watch?v=8mei6uVttho&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV&index=1" target="_blank">Curso de Lógica de Programação - Curso em video Professor: Gustavo Guanabara</a></li>
+
+     </ul>
+  </aside>
+  
+  <aside class="informacoes mai-info">
+    <span class="fechar">&times;</span>
+      <h2>Escolha uma linguagem de Programação</h2>
+      <p>As linguagens de programação são padrões de codificação binária, com sintaxe e semânticas específicas, capazes de criar instruções para
+        máquinas. Elas são usadas para orientar a programação de estruturas no desenvolvimento da web. Existem muitas linguagens de programação,
+        cada uma com seu próprio objetivo, filosofia e origem. <br>
+        <br>
+        As linguagens de programação mais populares são JavaScript, Python, Java, PHP, CSS, C#, C++ e C. Aprender uma linguagem de programação pode trazer muitos benefícios, seja para iniciar uma carreira no ramo de tecnologia ou para melhorar suas habilidades em programação de
+        sites e aplicações.
+
+        
+        </p>
+        <h2>Concentrar-se em uma única linguagem</h2>
+        <p>Escolher e focar em uma linguagem de programação é crucial para construir uma base sólida. Ao dedicar-se a uma linguagem, você compreende não só sua sintaxe, mas também os conceitos fundamentais de programação. Isso facilita a transição para outras linguagens, pois os princípios básicos são aplicáveis universalmente. Uma vez consolidada essa base, explorar outras linguagens se torna uma jornada natural, ampliando suas habilidades como desenvolvedor</p>
+
+        <h4>    Para mais informações, os seguintes links👇: </h4>
+        <ul>
+          <li><a href="https://becode.com.br/principais-linguagens-de-programacao/" target="_blank">As 15 principais linguagens de programação do mundo!</a></li>
+          <li><a href="https://www.hostinger.com.br/tutoriais/linguagens-de-programacao-mais-usadas" target="_blank">As 10 Linguagens de Programação Mais Usadas em 2023: Aprimore suas Habilidades em Desenvolvimento Web</a></li>
+          <li><a href="https://napratica.org.br/linguagem-de-programacao/" target="_blank">Linguagem de programação: conheça os principais conceitos e ferramentas desse universo</a></li>
+          <li><a href="https://rockcontent.com/br/blog/linguagem-de-programacao/" target="_blank">O que é uma linguagem de programação e quais os tipos existem?</a></li>
+
+        </ul>
+  </aside>
+  
+  <aside class="informacoes jun-info">
+    <span class="fechar">&times;</span>
+      <h2>Banco de Dados</h2>
+      <p>Um banco de dados é uma coleção organizada de informações - ou dados - estruturadas, normalmente armazenadas eletronicamente em um sistema de computador. Ele é geralmente controlado por um sistema de gerenciamento de banco de dados (DBMS). <br>
+        <br>
+         Os dados nos tipos mais comuns de bancos de dados em operação atualmente são modelados em linhas e colunas em uma série de tabelas para tornar o processamento e a
+        consulta de dados eficientes. <br>
+        <br>
+        Os bancos de dados são o local em que são armazenados os sistemas e dados relacionados a processos internos e comerciais, redes sociais, controle de fornecedores, atendimento e demais fontes pertinentes às operações da empresa. Quando a empresa armazena os dados relacionados a
+        seus clientes, é possível utilizar tecnologias de data analytics e business intelligence para analisar essas informações.</p>
+        <h4> Trilha do Conhecimento: Desafio de Desenvolvimento 😇</h4> 
+        <a href="https://view.genial.ly/65601999371dbd001134f462/interactive-content-banco-de-dados">Banco de dados</a>
+
+
+        <h4> Para mais informações, os seguintes links👇:</h4>
+        <ul>
+          <li><a href="https://www.oracle.com/br/database/what-is-database/" target="_blank">O que é um Banco de Dados?
+          </a></li>
+          <li><a href="https://www.totvs.com/blog/negocios/banco-de-dados/" target="_blank">Banco de dados: o que é, objetivo, tipos, vantagens e desafios</a></li>
+          <li><a href="https://kenzie.com.br/blog/banco-de-dados/" target="_blank">BANCO DE DADOS: O QUE É, PARA QUE SERVE, TIPOS E COMO CRIAR</a></li>
+
+        </ul>
+  </aside>
+  
+  <aside class="informacoes jul-info">
+    <span class="fechar">&times;</span>
+      <h2>Front-End</h2>
+      <p>O front-end é uma área da programação que se dedica a criar a parte visual e interativa de um site, aplicativo ou software. É o que o usuário vê
+        e usa quando acessa uma plataforma digital. Por exemplo, quando você entra no Facebook, é o que permite que você veja as fotos, os vídeos, os
+        comentários, as curtidas e os botões de ação. <br>
+        <br>
+        O trabalho de front-end é feito com linguagens como HTML, CSS e JavaScript, que permitem criar elementos gráficos, estilos, animações e
+        funcionalidades. O HTML é a linguagem que define a estrutura e o conteúdo da página, o CSS é a linguagem que define o visual e o layout da
+        página, e o JavaScript é a linguagem que define o comportamento e a interação da página. <br>
+        <br>
+        O front-end serve para que os usuários possam interagir com uma aplicação; em outras palavras, para construir a interface de utilização de um
+        site, aplicativo ou software. O desenvolvimento front-end é interpretado pelos navegadores ou sistemas operacionais e os ajuda a transmitir
+        aqueles elementos a quem deseja interagir com eles.
+        </p>
+        <h4> Trilha do Conhecimento: Desafio de Desenvolvimento 😇</h4> 
+            <a href="https://view.genial.ly/65635802efcef600108084aa/interactive-content-front-end">Front-end</a>
+
+        <h4>Para mais informações, segue os links abaixo 👇 </h4>
+        <ul>
+          <li><a href="https://kenzie.com.br/blog/front-end/" target="_blank">FRONT END: ENTENDA O QUE É, PARA QUE SERVE, COMO APRENDER ESSA ESPECIALIDADE!</a></li>
+          <li><a href="https://www.alura.com.br/artigos/o-que-e-front-end-e-back-end" target="_blank">Front-end, Back-end e Full Stack</a></li>
+          <li><a href="https://www.totvs.com/blog/developers/front-end/" target="_blank">Front end: O que é, como funciona e qual a importância</a></li>
+        </ul>
+  </aside>
+  
+  <aside class="informacoes ago-info">
+    <span class="fechar">&times;</span>
+      <h2>Back-End</h2>
+      <p>O back-end é toda a parte da programação voltada ao funcionamento interno de um software. Em outras palavras, back-end é tudo aquilo que
+        está por trás da interface de uma aplicação: seus sistemas, banco de dados, toda parte de segurança de dados, envio e recebimento de informações, armazenamento e etc. <br>
+        <br>
+        O back-end serve para que os sites, aplicativos, softwares ou outros tipos de sistemas de informação tenham todas as suas funcionalidades operando de maneira efetiva e cumprindo seus objetivos. O back-end também serve para dar suporte aos projetos de tecnologia, unindo uma equipe
+        multidisciplinar com uma visão mais abrangente do que está por trás de todos os processos. <br>
+        <br>
+        Profissionais back-end são responsáveis por toda estrutura interna de uma aplicação. Este profissional deve ter domínio sobre as principais linguagens de programação back-end, sobre as quais falaremos mais adiante, e sobre o funcionamento dos mais populares sistemas operacionais
+        do mercado, tanto para computadores quanto para dispositivos mobile.
+        </p>
+        <h4> Trilha do Conhecimento: Desafio de Desenvolvimento 😇</h4> 
+        <a href="https://view.genial.ly/65635bb2efcef60010824e8a/interactive-content-back-end">Back end</a>
+        <h4>Para mais informações, segue os links abaixo 👇</h4>
+        <ul>
+          <li><a href="https://kenzie.com.br/blog/back-end/" target="_blank">O QUE É BACK END, PARA QUE SERVE E COMO APRENDER </a></li>
+          <li><a href="https://www.totvs.com/blog/developers/back-end/"target="_blank">O que é back-end e qual seu papel na programação?</a></li>
+          <li><a href="https://harve.com.br/blog/desenvolvimento-web/o-que-e-backend-guia-completo/" target="_blank">Programação Front-end vs Backend</a></li>
+
+        </ul>
+  </aside>
+  
+  <aside class="informacoes set-info">
+    <span class="fechar">&times;</span>
+      <h2>Inteligência artificial</h2>
+      <p>
+
+
+        Os avanços tecnológicos representam um marco na evolução da humanidade, destacando-se a inteligência artificial (IA) como um dos pilares fundamentais. A IA revoluciona a capacidade de processamento de dados, permitindo prever tendências, automatizar tarefas e criar conteúdos de forma inovadora. É um campo multidisciplinar que permeia diversos setores, como saúde, educação, transporte e indústria, redefinindo processos e impulsionando a eficiência. <br>
+        <br>
+
+        Além da IA, outras inovações tecnológicas como a computação quântica, nanotecnologia e biotecnologia têm ganhado destaque. A computação quântica promete realizar cálculos exponencialmente mais rápidos do que os computadores convencionais, abrindo portas para avanços na medicina, criptografia e simulações complexas. <br>
+        <br>
+        
+        A nanotecnologia revoluciona a manipulação de materiais em escala atômica, possibilitando avanços em áreas como eletrônica, medicina e energia. Na biotecnologia, a edição genética, a medicina personalizada e a bioengenharia apresentam avanços extraordinários, transformando a forma como tratamos doenças e interagimos com a natureza. <br>
+        <br>
+        
+        Estudar esses avanços requer não apenas compreender sua complexidade técnica, mas também avaliar seus impactos sociais, éticos e econômicos. A interdisciplinaridade se torna essencial, unindo conhecimentos de diversas áreas para explorar todo o potencial dessas tecnologias e mitigar possíveis riscos. <br>
+        <br>
+        
+        Nesse contexto, a educação desempenha um papel crucial ao formar profissionais capazes de inovar de forma ética e responsável. Compreender os fundamentos dessas tecnologias e seu potencial transformador é essencial para adaptar-se a um mundo em constante evolução, onde a colaboração e a reflexão ética são valores imprescindíveis.
+        
+        </p>
+    <h4>Para mais informações, segue os links abaixo 👇</h4>
+        <ul>
+          <li><a href="https://kpmg.com/br/pt/home/insights/2023/04/avanco-inteligencia-artificial-brasil.html." target="_blank"> O avanço da Inteligência Artificial no Brasil - KPMG Brasil. </a></li>
+          <li><a href="https://mimonerd.com/os-avancos-da-inteligencia-artificial-e-seu-impacto-na-sociedade/" target="_blank"> Os avanços da Inteligência Artificial e seu impacto na sociedade.</a></li>
+<li><a href="https://www.flai.com.br/juscudilio/11-motivos-por-que-voce-deve-aprender-inteligencia-artificial/" target="_blank">8 Motivos Por Que Você Deve Aprender Inteligência Artificial</a></li>
+        </ul>
+  </aside>
+  
+  <aside class="informacoes out-info">
+    <span class="fechar">&times;</span>
+      <h2>Infraestrutura de Redes</h2>
+      <p>A infraestrutura de redes representa o conjunto de componentes físicos e lógicos que viabilizam a comunicação entre dispositivos. Essa estrutura inclui dispositivos como roteadores, switches, cabos de rede e tecnologias sem fio, juntamente com protocolos e padrões de comunicação. A configuração adequada da infraestrutura é vital para garantir uma conectividade eficiente e confiável entre os dispositivos em uma rede, seja ela local ou global. <br>
+      <br>
+ <h3> Arquitetura de Redes</h3>
+ A arquitetura de redes abrange o planejamento, design e organização das redes de computadores, considerando a disposição física e lógica dos dispositivos, os protocolos de comunicação utilizados, a distribuição de dados e a topologia da rede. É fundamental estabelecer uma arquitetura que otimize a eficiência da comunicação, minimizando possíveis gargalos de tráfego e garantindo a segurança dos dados durante a transmissão. <br>
+ <br>
+ <h3> Segurança em Redes</h3> 
+
+ A segurança em redes é um componente crítico para proteger as informações durante o tráfego. Envolve a implementação de medidas como criptografia, firewalls, autenticação de usuários, políticas de acesso e detecção de intrusos. A salvaguarda da confidencialidade, integridade e disponibilidade dos dados é essencial para prevenir acessos não autorizados e ataques cibernéticos, garantindo assim a proteção da rede e das informações transmitidas. <br>
+ <br>
+ <h3>Escalabilidade de Redes</h3>
+ A escalabilidade refere-se à capacidade de uma rede expandir-se sem comprometer seu desempenho. Isso envolve planejar a infraestrutura de modo que possa acomodar o crescimento do tráfego de dados e do número de dispositivos conectados. Estratégias como balanceamento de carga, uso de equipamentos de alto desempenho e adoção de protocolos eficientes são fundamentais para assegurar que a rede seja facilmente escalável à medida que as demandas crescem.
+      </p>
+      <h4>Para mais informações, segue os links abaixo 👇</h4>
+      <ul>
+        <li><a href="https://www.am3solucoes.com.br/blog/infraestrutura-de-redes/#:~:text=O%20que%20é%20infraestrutura%20de,mais%20avançados%20e%20robustos%20servidores." target="_blank">Infraestrutura de redes: a importância de mantê-la segura</a></li>
+        <li><a href="https://www.vmware.com/br/topics/glossary/content/network-architecture.html" target="_blank">O que é arquitetura de rede?</a></li>
+        <li><a href="https://www.cisco.com/c/pt_br/products/security/what-is-network-security.html" target="_blank">O que é segurança de rede?</a></li>
+        <li><a href="https://www.controle.net/faq/escalabilidade-o-que-sao-sistemas-escalaveis" target="_blank">Escalabilidade: O que é e quais são as aplicações de sistemas escaláveis</a></li>
+      </ul>
+  </aside>
+  
+  <aside class="informacoes nov-info">
+    <span class="fechar">&times;</span>
+      <h2>Áreas de Atuação</h2>
+      <p>
+        A área de tecnologia é vasta e oferece uma variedade de campos de atuação. Aqui estão alguns deles: <br>
+        <br>
+        1º Desenvolvimento de Softwares (PC/Mac ou Mobile): Envolve a criação de programas, aplicativos e sistemas operacionais para computadores e dispositivos móveis. <br>
+        <br>
+        2º Suporte Técnico: Responsável por resolver problemas técnicos e garantir que os sistemas de computador estejam funcionando corretamente. <br>
+        <br>
+        3º Administração de Redes e Sistemas Internos: Envolve a gestão e manutenção de redes de computadores e sistemas internos. <br>
+        <br>
+        4º Cloud Computing: Trata-se do fornecimento de serviços de computação, como servidores, armazenamento, bancos de dados, rede, software, análise e inteligência, através da Internet. <br>
+        <br>
+        5º Segurança Digital: Envolve a proteção de sistemas de computador contra roubo ou danos ao hardware, software ou dados eletrônicos, bem 
+        como a interrupção ou desvio dos serviços que eles fornecem. <br>
+        <br>
+        6º Web Design: Para as pessoas criativas e que gostam de estar por dentro das novidades do meio virtual, o web design pode ser uma opção
+        de carreira interessante. <br>
+        <br>
+        7º Programação e desenvolvimento para web: Se o seu interesse principal é mais direcionado à parte lógica e aos códigos, pode ser uma alternativa se qualificar em programação.</p>
+        <h4>Para mais informações, segue os links abaixo 👇</h4>
+        <ul>
+          <li><a href="https://br.indeed.com/conselho-de-carreira/encontrando-emprego/profissoes-area-tecnologia" target="_blank">20 profissões na área de tecnologia</a></li>
+          <li><a href="https://blog.eseg.edu.br/areas-para-trabalhar-com-tecnologia/" target="_blank">CONFIRA 15 ÁREAS PARA TRABALHAR COM TECNOLOGIA</a></li>
+          <li><a href="https://www.unit.br/blog/o-que-faz-um-profissional-de-ti-areas-de-atuacao" target="_blank">O que faz um profissional de TI: Entenda as áreas de atuação</a></li>
+          <li><a href="https://www.monitoratec.com.br/blog/carreira-em-tecnologia/" target="_blank">Carreira em tecnologia: conheça as principais áreas de atuação!</a></li>
+
+        </ul>
+  </aside>
+  
+  <aside class="informacoes dez-info">
+    <span class="fechar">&times;</span>
+      <h2>Ensinos Superiores</h2>
+      <p>
+        Existem vários cursos de ensino superior na área de tecnologia. Aqui estão alguns dos principais: <br>
+        <br>
+        1º Ciência da Computação: Este curso abrange a teoria e a prática da computação, incluindo algoritmos, estruturas de dados, sistemas operacionais, redes de computadores e inteligência artificial. <br>
+        <br>
+        2º Engenharia da Computação: Este curso combina a ciência da computação com a engenharia elétrica para desenvolver hardware e software de computadores. <br>
+        <br>
+        3º Sistemas de Informação: Este curso se concentra na aplicação da tecnologia da informação para resolver problemas de negócios. <br>
+        <br>
+        4º Gestão da Tecnologia da Informação: Este curso se concentra na gestão de recursos de TI em uma organização. <br>
+        <br>
+        5º Análise e Desenvolvimento de Sistemas: Este curso se concentra no desenvolvimento de software e aplicativos. <br>
+        <br>
+        6º Rede de Computadores: Este curso se concentra na instalação, configuração e manutenção de redes de computadores. <br>
+        <br>
+        7º Banco de Dados: Este curso se concentra na criação e gestão de bancos de dados. <br>
+        <br>
+        Os cursos superiores de tecnologia tiveram um crescimento de 55% no número de ingressantes entre 2015 e 2019.
+       </p>
+       <h4>Para mais informações, você pode consultar os seguintes sites 🖥️</h4>
+       <ul>
+        <li><a href="https://www.unovacursos.com.br/blog/cursos-na-area-de-tecnologia"target="_blank">Conheça os 7 principais cursos da área de tecnologia e descubra qual tem mais a ver com você!</a></li>
+        <li><a href="http://portal.mec.gov.br/catalogo-nacional-dos-cursos-superiores-de-tecnologia-" target="_blank">Catálogo Nacional dos Cursos Superiores de Tecnologia</a></li>
+        <li><a href="https://blog.imaginie.com.br/melhores-cursos-de-ensino-superior-de-tecnologia-do-brasil/" target="_blank">Quais são os melhores cursos de ensino superior de tecnologia do Brasil?</a></li>
+       </ul>
+  </aside>
+  
+  <button onclick="topFunction()" id="myBtn" title="Voltar para o topo">▲</button>
+
+    
+  <footer style="background-color:#3C1A7D; color: white; height: 100px; border-radius: 5px;" >
+    <!-- Rodapé -->
+    <div>
+        <p style="text-align: center; padding-top: 40px;" >Todos os direitos reservados. &copy; 2023 </p>
+    </div>
+</footer>
+
+    <script src="Roadmap atualizacao7.js"></script>
+    <script src="setinha.js"></script>
+ 
+</body>
+</html>
+
